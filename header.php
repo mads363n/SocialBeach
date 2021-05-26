@@ -5,14 +5,24 @@
     <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <title></title>
-    <!--<link rel="stylesheet" href="style.css">-->
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
 
     <header>
-        <nav>
-          <div>
-            <form action="includes/login.inc.php" method="post">
+      <nav class="nav-header-main"
+        <a class="header-logo" href="index.php"
+          <img src="img/logo.png" alt="mmtuts logo"
+        </a>
+        <ul>
+          <li><a href="index.php">Hjem</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Om os</a></li>
+          <li><a href="#">Kontakt</a></li>
+        </ul>
+      </nav>
+      <div class="header-login">
+          <form action="includes/login.inc.php" method="post">
               <input type="text" name="mailuid" placeholder="Usernamse/E-Mail...">
               <input type="password" name="pwd" placeholder="Password...">
               <button type="submit" name="login-submit">Login</button>
