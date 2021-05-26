@@ -1,0 +1,10 @@
+
+    
+  .box { 
+    display:flex; 
+    justify-content:space-between;
+    width: 65vmax; 
+    height:30vmax;
+    border: 1px solid white;
+  }
+  
