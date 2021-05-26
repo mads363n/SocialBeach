@@ -20,3 +20,5 @@
 <?php
   require "footer.php";
 ?>
+
+<!DOCTYPE html>
